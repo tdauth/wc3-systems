@@ -25,3 +25,18 @@ Show player score and team score like in AoE which can be hidden with a button.
 
 Allows sending mocks via chat, enabling/disabling them and easily configure sounds with texts from the original game.
 
+### Vote system
+
+Players can vote about choices with some timeout. If a player leaves the vote is subtracted, if the timeout expires a default vote is used.
+Could provide an advanced UI compared to the basic dialogs or chat commands or tavern units/heroes for races, professions etc.
+It could also be more abstract than the votekick system and the votekick system could be based on this.
+
+
+### Item Craft System
+
+Combining different items into new items.
+
+### Unit/Item Respawn system
+
+See my system in The Power of Fire. Units, heroes, items can respawn with custom time values, conditions and random creep/item tables. Besides, creeps can drop stuff etc.
+
