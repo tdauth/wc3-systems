@@ -40,3 +40,7 @@ Combining different items into new items.
 
 See my system in The Power of Fire. Units, heroes, items can respawn with custom time values, conditions and random creep/item tables. Besides, creeps can drop stuff etc.
 
+### Save Code system
+
+Basic save code system which can store different properties which are represented by integers. Save codes can be restricted to player hashes and contain checksums. See [World of Warcraft Reforged](https://github.com/tdauth/wowr).
+
