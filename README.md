@@ -44,8 +44,9 @@ See my system in The Power of Fire. Units, heroes, items can respawn with custom
 
 Basic save code system which can store different properties which are represented by integers. Save codes can be restricted to player hashes and contain checksums. See [World of Warcraft Reforged](https://github.com/tdauth/wowr).
 
-### Icon natives/functions
+### Missing fields system
 
+Some fields for object types might be missing from the new natives like icons.
 We can provide functions to register and retrieve icons for object IDs in a performant way if there are no natives to get the icons.
 Icons are useful in multiboards, custom UI etc.
 
