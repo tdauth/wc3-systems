@@ -44,3 +44,33 @@ See my system in The Power of Fire. Units, heroes, items can respawn with custom
 
 Basic save code system which can store different properties which are represented by integers. Save codes can be restricted to player hashes and contain checksums. See [World of Warcraft Reforged](https://github.com/tdauth/wowr).
 
+### Icon natives/functions
+
+We can provide functions to register and retrieve icons for object IDs in a performant way if there are no natives to get the icons.
+Icons are useful in multiboards, custom UI etc.
+
+```
+globals
+  constant integer ICON_TYPE_ACTIVE_BUTTON = 0
+  constant integer ICON_TYPE_PASSIVE_BUTTON = 1
+  constant integer ICON_TYPE_ACTIVE_BUTTON_DIS = 2
+  constant integer ICON_TYPE_PASSIVE_BUTTON_DIS = 3
+  constant integer ICON_TYPE_RESEARCH_BUTTON = 4
+  constant integer ICON_TYPE_RESEARCH_BUTTON_DIS = 5
+  constant integer ICON_TYPE_OFF_BUTTON_DIS = 6
+  constant integer ICON_TYPE_ON_BUTTON = 7
+  constant integer ICON_TYPE_ON_BUTTON_DIS = 8
+  constant integer ICON_TYPE_OFF_BUTTON = 9
+  constant integer ICON_TYPE_OFF_BUTTON_DIS = 10
+  constant integer ICON_TYPE_SCORE_BUTTON = 11
+  constant integer ICON_TYPE_UPRADE_BUTTON = 12
+endglobals
+
+function GetObjectIdIcon takes integer id, integer t returns string
+function HasObjectIdIcon takes integer id, integer t returns boolean
+function SetObjectIdIcon takes integer id, integer t, string iconPath returns nothing
+
+// Adds all Warcraft III icons.
+function AddStandardObjectIdIcons takes nothing returns nothing
+```
+
