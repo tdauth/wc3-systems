@@ -4,6 +4,17 @@ Ideas for Warcraft III: Reforged systems for custom maps.
 
 ## Systems
 
+### AI Ships System
+
+Warcraft III AI does not support ships. It even has issues building shipyards etc.
+Features:
+
+* Building shipyards.
+* Defending ships.
+* Custom attack waves at areas which are reachable by sea.
+* Repairing ships.
+* Transport ships (a bit harder).
+
 ### Idle Icon System
 
 [Idle Icon System](https://github.com/tdauth/wc3-idle-icon-system): Custom idle icons for warrior types, heroes etc. inspired by games like AoM.
