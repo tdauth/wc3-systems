@@ -15,6 +15,24 @@ Features:
 * Repairing ships.
 * Transport ships (a bit harder).
 
+### Handle Group System
+
+Motivation: `force` and `group` support player and unit but other types should be supported, too.
+
+Something like:
+
+```
+local itemgroup g = CreateItemGroup()
+call ItemGroupAddItem(g, whichItem)
+set tmpItem = FirstOfItemGroup(g)
+call ItemGroupRemoveItem(g, whichItem)
+call ItemGroupClear(g)
+call DestroyItemGroup(g)
+call IsItemInItemGroup(g, whichItem)
+```
+
+for every handle type and as trigger action.
+
 ### Idle Icon System
 
 [Idle Icon System](https://github.com/tdauth/wc3-idle-icon-system): Custom idle icons for warrior types, heroes etc. inspired by games like AoM.
