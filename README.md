@@ -46,6 +46,18 @@ This could also be based on a more general vote system.
 
 Multiboard based system which allows you to configure columns and lines with predefined stuff like: Player name, hero level, gold, lumber, unit kills etc.
 
+### Turret System
+
+https://github.com/tdauth/wc3-modern-warfare/tree/master/systems
+
+### Black Arrow System
+
+https://github.com/tdauth/wowr/tree/master/systems
+
+### Item Unstack System
+
+https://github.com/tdauth/wowr/tree/master/systems
+
 ### Player Stats system
 
 Show player score and team score like in AoE which can be hidden with a button.
