@@ -4,6 +4,16 @@ Ideas for Warcraft III: Reforged systems for custom maps.
 
 ## Systems
 
+### Weather/Four Seasons System
+
+- Replace treees in seasons.
+- Replace ground textures in seasons.
+- Replace buildings and units in seasons.
+- Weather effects depending on seasons and time.
+- Lightnings during rain.
+- Rays at day and night.
+- Exclude regions from weather effects.
+
 ### AI Ships System
 
 Warcraft III AI does not support ships. It even has issues building shipyards etc.
