@@ -4,10 +4,15 @@ Ideas for Warcraft III: Reforged systems for custom maps.
 
 ## Systems
 
+### Unit Routine System
+
+- Based on https://github.com/tdauth/tpof-talras/blob/master/src/Asl/Systems/World/Struct%20Routine.j
+- Allows units to have daily routines at certain times of the day.
+
 ### Dialog Pages System
 
-- Increases the maximum of dialog buttons per dialog.
 - Based on https://github.com/tdauth/tpof-talras/blob/master/src/Asl/Systems/Gui/Struct%20Dialog.j.
+- Increases the maximum of dialog buttons per dialog.
 - Automatically add buttons "Next" and "Previous".
 
 
